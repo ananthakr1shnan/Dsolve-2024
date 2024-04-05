@@ -17,7 +17,9 @@ const ProjectCreationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/projects', formData);
+        console.log("Start")
+      const response = await axios.post('/projects', formData);
+      console.log(response.data)
       const newProject = response.data;
       console.log('New project created:', newProject);
       // Optionally, provide feedback to the user or navigate to project details page
@@ -29,6 +31,10 @@ const ProjectCreationForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <label>
+        Project Id
+        <input type="text" name="projectId" value={formData.projectId} onChange={handleChange} />
+      </label>
       <label>
         Title:
         <input type="text" name="title" value={formData.title} onChange={handleChange} />
