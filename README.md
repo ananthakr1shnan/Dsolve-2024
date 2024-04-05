@@ -4,15 +4,16 @@
 
 
 ## Team Name
-Name  
+Tech Trojans  
 
 # Team Member
-Member 1 Github Link
+https://github.com/ananthakr1shnan
 
-MEmber 2 Github Link
+https://github.com/devapriyanpjohn
 
 ## Idea
-Breif Idea in two three sentences 
+Collaborative project management tool
+Our project is a tool designed to help students work together on their college projects more effectively. It lets students create tasks, share files, and talk about their projects all in one place. It also helps them keep track of their progress and reminds them about important deadlines. This makes it easier for students to work together and get their projects done on time.It is useful for project creation,task assignment,collaboration,study integration,progress tracking and for notifications
 
 ## Features 
 1. 
